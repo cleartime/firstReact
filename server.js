@@ -9,7 +9,7 @@ const open = require('open');
 new WebpackDevServer(webpack(config), config.devServer)
 .listen(config.port, 'localhost', (err) => {
   if (err) {
-    console.log(err);
+    console.log(err);no
   }
   console.log('Listening at localhost:' + config.port);
   console.log('Opening your system browser...');
